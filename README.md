@@ -32,3 +32,13 @@ Para visualizar la página web, clona el repositorio localmente y abre el archiv
 
 ## Instrucciones de Apertura
 Para visualizar la página web, clona el repositorio localmente en tu ordenador y abre el archivo `index.html` con cualquier navegador web.
+
+## Sincronización Remota: Fetch vs Pull
+1. **¿Qué hizo git fetch?**  
+   Descargó el historial y las referencias del servidor remoto sin alterar el directorio de trabajo local ni tus archivos.
+2. **¿Qué hizo git pull?**  
+   Realiza un `git fetch` seguido de un `git merge` automáticamente para traer e integrar los cambios de golpe.
+3. **¿Por qué fetch permite revisar antes de integrar?**  
+   Porque al no modificar los archivos de trabajo locales, te permite ejecutar un `git diff` para examinar qué ha cambiado antes de decidir si fusionas.
+4. **¿Qué relación existe entre pull, fetch y la integración posterior?**  
+   `git pull` es la combinación directa de descargar la información (`fetch`) e integrar o fusionar los datos (`merge`).
