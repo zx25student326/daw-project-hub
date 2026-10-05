@@ -23,3 +23,6 @@ q
    Se debe revocar e invalidar la credencial inmediatamente en el servicio correspondiente, generar una nueva y purgar el historial de Git para eliminar el dato sensible.
 4. **¿Bastaría con eliminar el archivo en un commit posterior? Justificar la respuesta.**
    No, porque Git conserva todos los archivos en su historial, por lo que el token seguiría siendo visible al consultar commits pasados.
+
+## Conflicto Resuelto
+Se produjo un conflicto en `index.html` al modificar la misma línea de la presentación en las ramas `main` y `feature/nuevo-eslogan`. Se resolvió evaluando ambas propuestas, redactando una versión final combinada, eliminando los marcadores de control de Git y confirmando el commit de resolución.
