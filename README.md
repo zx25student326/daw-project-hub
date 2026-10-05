@@ -26,3 +26,6 @@ q
 
 ## Conflicto Resuelto
 Se produjo un conflicto en `index.html` al modificar la misma línea de la presentación en las ramas `main` y `feature/nuevo-eslogan`. Se resolvió evaluando ambas propuestas, redactando una versión final combinada, eliminando los marcadores de control de Git y confirmando el commit de resolución.
+
+## Instrucciones de Apertura
+Para visualizar la página web, clona el repositorio localmente y abre el archivo `index.html` en un navegador.
