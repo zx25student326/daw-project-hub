@@ -29,3 +29,6 @@ Se produjo un conflicto en `index.html` al modificar la misma línea de la prese
 
 ## Instrucciones de Apertura
 Para visualizar la página web, clona el repositorio localmente y abre el archivo `index.html` en un navegador.
+
+## Instrucciones de Apertura
+Para visualizar la página web, clona el repositorio localmente en tu ordenador y abre el archivo `index.html` con cualquier navegador web.
